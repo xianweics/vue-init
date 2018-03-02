@@ -1,0 +1,68 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+body {
+  height: 100%;
+  color: #323232; }
+
+blockquote, body, button, dd, dl, ul, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, input, keygen, legend, li, ol, p, pre, select, textarea, ul，select {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue","Helvetica,Arial","微软雅黑","Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  font-size: 100%; }
+
+ul {
+  list-style: none; }
+
+button, input, select, textarea {
+  margin: 0;
+  outline: 0;
+  vertical-align: middle;
+  display: inline-block; }
+
+input, textarea {
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #fff; }
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  height: 100%; }
+
+iframe, img {
+  border: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  collapse: 0; }
+  table td, table th {
+    padding: 0; }
+
+a {
+  text-decoration: none;
+  outline: 0; }
+  a:hover {
+    text-decoration: none;
+    cursor: pointer; }
+
+:focus {
+  outline: 0; }
+
+article, aside, dialog, figure, footer, header, main, menu, nav, section {
+  display: block; }
+
+/*# sourceMappingURL=reset.css.map */

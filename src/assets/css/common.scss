@@ -1,0 +1,24 @@
+.left{float:left !important;}
+.right{float:right !important;}
+.tc{text-align:center !important; }
+.tl{text-align:left !important;}
+.tr{text-align:right !important;}
+.dn{display:none}
+.di{display:inline !important;}
+.db{display:block !important;}
+.df{display:flex !important;}
+.dib{display:inline-block !important;}
+.vam{vertical-align:middle !important;}
+.vat{vertical-align:top !important;}
+.vab{vertical-align:bottom !important;}
+.cursor-pointer{cursor: pointer !important; }
+.cursor-default{cursor: default !important; }
+.cursor-noallow{cursor:not-allowed!important}
+.text-overflow{text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+
+.b0{border:0!important}
+.ofh{overflow:hidden !important;}
+.fwb{font-weight: bold !important;}
+.pr{position: relative}
+.disabled, .disabled:hover{ cursor: not-allowed; pointer-events:none;}
+.clearfix{&:after,&:before{display:table;content:""}&:after{clear:both}}
